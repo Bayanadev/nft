@@ -1,0 +1,415 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Work Sans, sans-serif;
+  text-decoration: none;
+}
+body {
+  background: #2b2b2b;
+}
+.container {
+  width: 100%;
+  max-width: 1180px;
+  padding-block: 30px;
+  margin-inline: auto;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+.header a {
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+}
+.header button {
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+
+  text-align: center;
+  display: flex;
+
+  background: #a259ff;
+  width: 152px;
+  height: 50px;
+  padding: 0px 30px 0px 30px;
+  gap: 12px;
+  border-radius: 20px;
+  align-items: center;
+  border: none;
+}
+.header nav button:hover {
+  cursor: pointer;
+  transition: 1s;
+
+  transform: scale(1.1);
+  background: beige;
+  color: black;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+  text-align: center;
+  align-items: center;
+}
+.cosmo {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+}
+.cosmo-1 {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.cosmo-text {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.cosmo-text h1 {
+  color: #fff;
+  font-size: 67px;
+  font-weight: 600;
+  width: 500px;
+  height: 222px;
+}
+.cosmo-text p {
+  width: 510px;
+  height: 105px;
+  font-size: 22px;
+  font-weight: 400;
+  color: #ffffff;
+  display: flex;
+  gap: 10px;
+  line-height: 40px;
+}
+.cosmo-text button {
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+  width: 230px;
+  height: 47px;
+  padding: 0px 50px 0px 50px;
+  gap: 12px;
+  border-radius: 20px;
+  background: #a259ff;
+  border: none;
+  display: flex;
+  align-items: center;
+  color: #fff;
+}
+.cosmo-text button:hover {
+  cursor: pointer;
+  transition: 1s;
+
+  transform: scale(1.1);
+  background: beige;
+  color: black;
+}
+.cosmo-tab {
+  display: flex;
+  justify-content: space-between;
+}
+.tab1 {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.tab1 h1 {
+  font-size: 28px;
+  font-weight: 700;
+  color: #fff;
+}
+.tab1 p {
+  font-size: 23.99px;
+  font-weight: 400;
+  color: #ffffff;
+}
+.cosmo-img {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background: #3e3d3d;
+  border-radius: 20px;
+  width: 510px;
+  height: 490px;
+
+  gap: 10px;
+}
+.cosmo-img img {
+  width: 510px;
+  height: 401px;
+  border-radius: 20px 20px 0px 0px;
+}
+.cosmo-img h1 {
+  width: 470px;
+  height: 31px;
+  font-size: 22px;
+  font-weight: 600;
+  color: #ffffff;
+  padding-left: 13px;
+}
+.cosmo-img1 {
+  display: flex;
+
+  gap: 10px;
+}
+.cosmo-img1 p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #ffffff;
+  padding-left: 5px;
+}
+.cosmo-img1 img {
+  width: 24px;
+  height: 24px;
+  padding-left: 13px;
+}
+#robo {
+  padding-top: 80px;
+}
+.robo {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  line-height: 30px;
+}
+.robo-box {
+  display: flex;
+  justify-content: space-between;
+}
+.robo-text {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.robo-text h1 {
+  font-size: 38px;
+  font-weight: 600;
+  color: #ffffff;
+}
+.robo-text p {
+  font-size: 22px;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.r-box .r1 {
+  width: 330px;
+  height: 330px;
+  border-radius: 20px;
+}
+.img-box {
+  display: flex;
+  justify-content: flex-start;
+  gap: 15px;
+  /* width: 100px;
+  height: 100px;
+  border-radius: 20px; */
+}
+.img-box button {
+  width: 100px;
+  height: 100px;
+  padding: 32px 15px 32px 15px;
+  gap: 10px;
+  border-radius: 20px;
+  background: #a259ff;
+  color: #ffffff;
+  border: none;
+  font-size: 22px;
+  font-weight: 700;
+  text-align: center;
+}
+.box-mini {
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px;
+}
+.robo h5 {
+  font-size: 22px;
+  font-weight: 600;
+  color: #ffffff;
+}
+.box-mini p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #ffffff;
+  text-align: center;
+}
+.box-mini img {
+  width: 24px;
+  height: 24px;
+}
+#person {
+  padding-block: 10%;
+}
+.person {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+.person-box {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+.person-text h1 {
+  font-size: 38px;
+  font-weight: 600;
+  color: #fff;
+}
+.person-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.person-text {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.person-text p {
+  font-size: 22px;
+  font-weight: 400;
+  color: #ffffff;
+}
+.person-btn button {
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+  width: 247px;
+  height: 60px;
+  padding: 0px 50px 0px 50px;
+  gap: 12px;
+  border-radius: 20px;
+  background: none;
+  border-color: #a259ff;
+  display: flex;
+  align-items: center;
+  color: #fff;
+}
+.p-box {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  background: #3e3d3d;
+  width: 240px;
+  height: 240px;
+  /* padding: 20px; */
+  border-radius: 20px;
+  position: relative;
+}
+
+.p-box img {
+  width: 120px;
+  height: 120px;
+  padding-left: 25%;
+  padding-top: 10%;
+}
+
+.p-box h5 {
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  background: #2b2b2b;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  color: #858584;
+  position: absolute;
+  left: 18px;
+  top: 18px;
+}
+.p-box h1 {
+  font-size: 22px;
+  font-weight: 600;
+  color: #ffffff;
+  padding-left: 25%;
+}
+.p-box p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #858584;
+  padding-left: 15%;
+}
+.p-box span {
+  font-family: Space Mono;
+  font-size: 16px;
+  font-weight: 400;
+  color: #ffffff;
+}
+#photo {
+  padding-block: 50px;
+}
+.photo {
+  display: flex;
+  flex-direction: column;
+  gap: 70px;
+}
+.photo h1 {
+  font-size: 38px;
+  font-weight: 600;
+  color: #ffffff;
+}
+.photo-box .photo1 {
+  filter: blur(5px);
+  width: 240px;
+  height: 240px;
+  border-radius: 20px 20px 0px 0px;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+
+  /* content: url("../image/PaintBrush.svg") no-repeat; */
+}
+
+.photo-box .photo1:hover {
+  filter: blur(0px);
+  z-index: 1;
+
+  /* span {
+    display: none;
+    opacity: 0;
+  } */
+}
+.photo-box .photo-2 {
+  z-index: 1;
+  background: none;
+}
+.photo-box img:hover {
+  z-index: -3;
+  display: none;
+}
+.photo-box {
+  position: relative;
+  background: #3e3d3d;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+  width: 198px;
+  height: 260px;
+  /* content: url("../image/PaintBrush.svg") no-repeat;{
+  } */
+  /* z-index: 2; */
+  /* left: 100px; */
+}
+.photo-box {
+  transition: 1s;
+  transform: scale(1.1);
+}
+.photo-box p {
+  font-size: 22px;
+  font-weight: 600;
+  text-align: left;
+  position: absolute;
+  left: 5%;
+  bottom: 7%;
+  color: #ffffff;
+}
